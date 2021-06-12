@@ -1,0 +1,259 @@
+body {
+  color: bisque;
+  background-color: #006600;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.game-field {
+  margin: 0 auto;
+  padding: 10px 10px 0;
+  background-image: url("./tree2.jpg");
+  border-radius: 25px;
+  border: 5px solid #003300;
+}
+
+.h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.paragraph {
+  font-size: 23px;
+  text-align: center;
+  margin: 55px 0;
+}
+
+.form {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: stretch;
+  margin: 0 auto;
+}
+
+.input {
+  width: 28%;
+  padding-left: 10px;
+  font-size: 26px;
+  font-weight: 700;
+  border: 3px solid #003300;
+  border-right: none;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  color: bisque;
+  background-color: transparent;
+}
+
+.input::placeholder {
+  text-align: center;
+  color: #999999;
+}
+
+.donebutton {
+  width: 60%;
+  font-size: 16px;
+  font-weight: 700;
+  border: 3px solid #003300;
+  border-left-width: 1px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: bisque;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.timer-wrapper {
+  width: 150px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  margin-bottom: 9px;
+  padding: 3px 10px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 40px;
+  border-radius: 10px;
+  border: 3px solid bisque;
+}
+
+.timer-text {
+  margin-right: auto;
+}
+
+.timer {
+  font-size: 45px;
+}
+
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.game-field-2 {
+  max-width: 520px;
+}
+
+.li-2 {
+  width: 250px;
+  height: 350px;
+  margin: 0 0 10px 0;
+}
+
+.game-field-4 {
+  max-width: 650px;
+}
+
+.li-4 {
+  width: 150px;
+  height: 186px;
+  margin: 0 0 10px 0;
+}
+
+.game-field-6 {
+  max-width: 700px;
+}
+
+.li-6 {
+  width: 105px;
+  height: 120px;
+  margin: 0 0 10px 0;
+}
+
+.game-field-8 {
+  max-width: 800px;
+}
+
+.li-8 {
+  width: 90px;
+  height: 88px;
+  margin: 0 0 10px 0;
+}
+
+.game-field-10 {
+  max-width: 850px;
+}
+
+.li-10 {
+  width: 80px;
+  height: 68px;
+  margin: 0 0 10px 0;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  color: transparent;
+  background-image: url("./shirt.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.card-is-open {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 0;
+  color: #006600;
+  background-image: none;
+  background-color:bisque;
+  border: 5px solid #003300;
+}
+
+.button:hover:enabled {
+  box-shadow: 0 0 25px #ffffff;
+}
+
+.button:disabled {
+  cursor: unset;
+}
+
+.end-wrapper {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.end-title {
+  margin-top: 0;
+  font-size: 80px;
+  font-weight: 700;
+  color: bisque;
+}
+
+.end-btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: bisque;
+  border: 5px solid bisque;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.end-btn:hover {
+  color: #003300;
+  border-color: #003300;
+  background-color: bisque;
+}
+
+
+@media (max-width: 666px) { 
+  .li-4 {
+    width: 125px;
+    height: 140px;
+  }
+  
+  .h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ul {
+    justify-content: space-evenly;
+  }
+
+  .li-2 {
+    width: 200px;
+    height: 250px;
+  }
+  .end-title {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .h1 {
+    font-size: 24px;
+  }
+
+  .li-2 {
+    width: 180px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 425px) {
+  .li-2 {
+    width: 125px;
+    height: 160px;
+  }
+}
